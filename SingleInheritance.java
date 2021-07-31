@@ -9,6 +9,7 @@ class Bicycle {
     public Bicycle() {
         this.gear = 0;
         this.speed = 0;
+        System.out.println("In Superclass Constructor");
     }
 
     public void applyBrake(int decrement) {
@@ -28,8 +29,13 @@ class MountainBike extends Bicycle {
     public int seatHeight;
 
     public MountainBike(int gear, int speed, int startHeight) {
-        super(gear, speed);
+        // super(gear, speed);
         seatHeight = startHeight;
+        System.out.println("In Subclass Constructor");
+    }
+
+    public MountainBike() {
+        System.out.println("In Subclass Constructor");
     }
 
     public void setHeight(int newValue) {
@@ -43,7 +49,7 @@ class MountainBike extends Bicycle {
 
 public class SingleInheritance {
     public static void main(String args[]) {
-        MountainBike mb = new MountainBike(3, 100, 25);
+        MountainBike mb = new MountainBike();
         System.out.println(mb.toString());
     }
 }
