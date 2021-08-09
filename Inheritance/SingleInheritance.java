@@ -1,3 +1,4 @@
+package Inheritance;
 class Bicycle {
     public int gear, speed;
 

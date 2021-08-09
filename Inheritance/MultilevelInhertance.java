@@ -1,3 +1,4 @@
+package Inheritance;
 class MultilevelInhertance {
     public static void main(String[] args) {
         three g = new three();

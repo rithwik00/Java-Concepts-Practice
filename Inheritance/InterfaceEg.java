@@ -1,3 +1,4 @@
+package Inheritance;
 interface Shape1 {
     void draw();
     double area();

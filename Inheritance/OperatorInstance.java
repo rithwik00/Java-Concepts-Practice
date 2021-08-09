@@ -1,3 +1,4 @@
+package Inheritance;
 class Person{}
 class Boy extends Person implements Myinterface {}
 interface Myinterface{}

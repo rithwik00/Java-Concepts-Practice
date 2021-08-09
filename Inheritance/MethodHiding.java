@@ -1,3 +1,4 @@
+package Inheritance;
 class Parent {
 
     static void m1()

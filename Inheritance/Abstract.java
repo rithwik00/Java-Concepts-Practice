@@ -1,3 +1,4 @@
+package Inheritance;
 abstract  class Shape {
 
     String objectName = " ";
