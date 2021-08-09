@@ -1,4 +1,4 @@
-public class HierarchialInheritance {
+class HierarchialInheritance {
     class A {
         public void print_A() { System.out.println("Class A"); }
     }

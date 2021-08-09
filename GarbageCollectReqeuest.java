@@ -1,4 +1,4 @@
-public class GarbageCollectReqeuest {
+class GarbageCollectReqeuest {
     public static void main(String[] args) throws Exception{
         GarbageCollectReqeuest g1 = new GarbageCollectReqeuest();
         GarbageCollectReqeuest g2 = new GarbageCollectReqeuest();

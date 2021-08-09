@@ -1,4 +1,4 @@
-public class Break {
+class Break {
     public static void main(String args[]) {
         boolean t = true;
 

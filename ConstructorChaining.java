@@ -1,6 +1,6 @@
 // import javax.print.event.PrintJobListener;
 
-public class ConstructorChaining {
+class ConstructorChaining {
     ConstructorChaining() {
         System.out.println("Inside default constructor");
     }

@@ -1,4 +1,4 @@
-public class Getclass {
+class Getclass {
     public static void main(String args[]) {
         Object obj = new String("RithwikVedpathak");
         Class c = obj.getClass();

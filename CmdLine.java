@@ -1,4 +1,4 @@
-public class CmdLine {
+class CmdLine {
     public static void main(String args[]){
         if (args.length > 0){
             System.out.println("command line args elements are:");

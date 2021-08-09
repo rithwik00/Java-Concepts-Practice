@@ -5,7 +5,7 @@ class Testing
     Testing()      { x = 0; }
 }
 
-public class CallByReference {
+class CallByReference {
   
     public static void main(String[] args)
     {

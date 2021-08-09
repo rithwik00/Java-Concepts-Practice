@@ -1,4 +1,4 @@
-public class ThisConstructorOverlaoding {
+class ThisConstructorOverlaoding {
     public static void main(String[] args)
     {
         // create box using only boxNo

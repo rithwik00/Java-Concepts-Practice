@@ -1,4 +1,4 @@
-public class ClassLoader {
+class ClassLoader {
     public static void main(String args[]) {
         // String class is loaded by bootstrap loader, and
         // bootstrap loader is not Java object, hence null

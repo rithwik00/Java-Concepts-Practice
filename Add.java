@@ -6,7 +6,7 @@ class Addition {
   }  
 }
 
-public class Add {
+class Add {
     public static void main(String[] args) {
         Addition add = new Addition();
         int s = add.addTwoInt(2, 3);

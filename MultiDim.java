@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MultiDim {
+class MultiDim {
     public static void main(String[] args) {
 
         //////////////////////////////////////////////////

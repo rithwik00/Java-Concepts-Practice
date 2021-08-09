@@ -1,4 +1,4 @@
-public class StringBuffers {
+class StringBuffers {
     public static void main(String args[]) throws Exception{
         StringBuffer s = new StringBuffer("GeeksforGeeks");
         int p = s.length();

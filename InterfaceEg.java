@@ -1,20 +1,47 @@
-// import java.io.*;
-
-interface Player {
-    final int id = 10;
-    void display();
+interface Shape1 {
+    void draw();
+    double area();
 }
+ 
+class Rect implements Shape1 {
+    int length, width;
 
-public class InterfaceEg implements Player {
-    public void display(){
-        System.out.println("Geek");
+    Rect(int length, int width) {
+        this.length = length;
+        this.width = width;
     }
-
+ 
+    @Override public void draw() {
+        System.out.println("Rect has been drawn ");
+    }
+ 
+    @Override public double area() {
+        return (double)(length * width);
+    }
+}
+ 
+class Cir implements Shape1 {
+ 
+    double pi = 3.14;
+    int radius;
+ 
+    Cir(int radius) { this.radius = radius; }
+ 
+    @Override public void draw() {
+        System.out.println("Cir has been drawn ");
+    }
+ 
+    @Override public double area() {
+ 
+        return (double)((pi * radius * radius) / 2);
+    }
+}
+class InterfaceEg {
     public static void main(String args[]) {
-        InterfaceEg t = new InterfaceEg();
-        t.display();
-        System.out.println(id); //Player.id, t.id also valid :)
-        System.out.println(t); // Calls toString method internally
-        System.out.println(t.toString()); // direct call to toString method
+        Shape1 rect = new Rect(2, 3);
+        System.out.println("Area of Rect: " + rect.area());
+ 
+        Shape1 Cir = new Cir(2);
+        System.out.println("Area of Cir: " + Cir.area());
     }
 }

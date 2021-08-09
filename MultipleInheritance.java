@@ -1,4 +1,4 @@
-public class MultipleInheritance {
+class MultipleInheritance {
     public static void main(String[] args) {
         child c = new child();
         c.print_geek();

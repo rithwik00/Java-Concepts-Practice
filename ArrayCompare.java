@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayCompare {
+class ArrayCompare {
     public static void main(String[] srgs) {
       int inarr1[] = {1, 2, 3};
       int inarr2[] = {1, 2, 3}; 

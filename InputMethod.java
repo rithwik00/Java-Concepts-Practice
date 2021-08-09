@@ -3,7 +3,7 @@
 
 // import jdk.internal.org.jline.utils.InputStreamReader;
 
-public class InputMethod {
+class InputMethod {
     public static void main(String args[]) throws Exception {
         // BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 

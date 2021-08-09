@@ -13,7 +13,7 @@ class Demo {
     }
 }
 
-public class Overloading {
+class Overloading {
     public static void main(String[] args)
     {
         byte a = 25;

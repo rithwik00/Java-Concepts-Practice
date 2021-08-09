@@ -1,4 +1,4 @@
-public class Init {
+class Init {
     {
         System.out.println("First INIT");
     }

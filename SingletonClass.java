@@ -16,7 +16,7 @@ class MySingleton {
 }
   
 // Driver Class
-public class SingletonClass
+class SingletonClass
 {
    public static void main(String args[])    
    {

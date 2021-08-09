@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 // import java.util.Scanner;
 import java.util.StringTokenizer;
  
-public class FastestReader {
+class FastestReader {
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;

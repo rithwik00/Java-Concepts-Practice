@@ -47,7 +47,7 @@ class MountainBike extends Bicycle {
     }
 }
 
-public class SingleInheritance {
+class SingleInheritance {
     public static void main(String args[]) {
         MountainBike mb = new MountainBike();
         System.out.println(mb.toString());
