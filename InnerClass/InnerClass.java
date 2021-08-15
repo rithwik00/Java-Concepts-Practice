@@ -1,3 +1,4 @@
+package InnerClass;
 public class InnerClass {
     public static void main(String[] args) {
         OuterClass out = new OuterClass();

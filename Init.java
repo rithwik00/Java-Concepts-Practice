@@ -18,5 +18,6 @@ class Init {
 
     public static void main(String[] args) {
         Init i = new Init(4);
+        i.getClass();
     }
 }

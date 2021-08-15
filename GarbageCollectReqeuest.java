@@ -2,6 +2,8 @@ class GarbageCollectReqeuest {
     public static void main(String[] args) throws Exception{
         GarbageCollectReqeuest g1 = new GarbageCollectReqeuest();
         GarbageCollectReqeuest g2 = new GarbageCollectReqeuest();
+        g1.getClass();
+        g2.getClass();
         
         g1 = null;
         System.gc();

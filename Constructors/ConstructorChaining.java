@@ -18,5 +18,6 @@ class ConstructorChaining {
 
     public static void main(String[] args) {
         ConstructorChaining c = new ConstructorChaining(1, 2);
+        c.getClass();
     }
 }

@@ -45,6 +45,7 @@ class Derived extends Base
     {
         // calls parameterized constructor 4
         Derived obj = new Derived("test");
+        obj.getClass();
  
         // Calls No-argument constructor
         // Derived obj = new Derived();
