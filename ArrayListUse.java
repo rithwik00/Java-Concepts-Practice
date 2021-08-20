@@ -17,5 +17,14 @@ class ArrayListUse {
         cars.size();
 
         Collections.sort(cars);
+        System.out.println(cars);
+
+        Iterator<String> it = cars.iterator();
+        // Print the first item
+        System.out.println(it.next());
+
+        while(it.hasNext()) 
+            System.out.println(it.next());
+          
     }
 }
