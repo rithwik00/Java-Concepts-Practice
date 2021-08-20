@@ -12,7 +12,8 @@ class SuperClass {
 
 class AnonymousInnerClass {
     public static void main(String args[]) {
-        SuperClass superclass = new SuperClass() {
+        SuperClass superclass = new SuperClass() 
+        {
             @Override
             void methodOne() {
                 System.out.println("From Anonymous Inner Class");
