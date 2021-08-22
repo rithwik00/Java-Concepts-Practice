@@ -1,3 +1,4 @@
+package Strings;
 class StringBuffers {
     public static void main(String args[]) throws Exception{
         StringBuffer s = new StringBuffer("GeeksforGeeks");
