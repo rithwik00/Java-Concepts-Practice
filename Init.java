@@ -1,3 +1,9 @@
+class Avaai {
+    static {
+        System.out.println("SIB from other class when instantiated");
+    }
+}
+
 class Init {
     {
         System.out.println("First INIT");
@@ -12,12 +18,13 @@ class Init {
         System.out.println("Inside one parameter constructor");
     }
 
-    {
-        System.out.println("Second INIT");
+    static {
+        System.out.println("SIB called before main method");
     }
 
     public static void main(String[] args) {
         Init i = new Init(4);
-        i.getClass();
+        Avaai avaai = new Avaai();
+        // i.getClass();
     }
 }

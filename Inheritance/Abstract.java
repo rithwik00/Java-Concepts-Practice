@@ -2,8 +2,19 @@ package Inheritance;
 abstract  class Shape {
 
     String objectName = " ";
- 
-    Shape(String name) { this.objectName = name; }
+    static {
+        System.out.println("In sib");
+    }
+
+    {
+        System.out.println("In IIB");
+    }
+    
+    Shape() {
+        System.out.println("InNo arg constructor");
+    }
+
+    Shape(String name) { this();this.objectName = name; }
  
     public void moveTo(int x, int y) {
         System.out.println(this.objectName + " " + "has been moved to" + " x = " + x + " and y = " + y);

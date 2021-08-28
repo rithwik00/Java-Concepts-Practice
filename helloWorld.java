@@ -1,15 +1,12 @@
-// import java.util.*;
 
 class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        // Scanner in = new Scanner(System.in);
+        int[] a = new int[10];
+         
+        int[] b = new int[100];
+         
+        a = b;
 
-        // int num = in.nextInt();
-        // for(int i = 0; i < num; i++){
-        //     int a = in.nextInt();
-        //     System.out.println(a);
-        // }
-        // in.close();
+        System.out.println(a[90]);
     }
 }
