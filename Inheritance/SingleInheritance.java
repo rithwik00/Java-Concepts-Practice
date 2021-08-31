@@ -1,4 +1,5 @@
 package Inheritance;
+
 class Bicycle {
     public int gear, speed;
 
@@ -13,6 +14,18 @@ class Bicycle {
         System.out.println("In Superclass Constructor");
     }
 
+    static void testing(int i) {
+        System.out.println("static with one parameter");
+    }
+
+    static void testing(int i, int j) {
+        System.out.println("static with 2 parameters");
+    }
+
+    void testing(float i, int j) {
+        System.out.println("non static test");
+    }
+    
     public void applyBrake(int decrement) {
         speed -= decrement;
     }
@@ -52,5 +65,6 @@ class SingleInheritance {
     public static void main(String args[]) {
         MountainBike mb = new MountainBike();
         System.out.println(mb.toString());
+        // Bicycle.testing(0.0f, 2);    NOT ALLOWED 
     }
 }

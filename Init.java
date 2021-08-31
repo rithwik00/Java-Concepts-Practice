@@ -17,6 +17,10 @@ class Init {
         this();
         System.out.println("Inside one parameter constructor");
     }
+    
+    {
+        System.out.println("Second INIT");
+    }
 
     static {
         System.out.println("SIB called before main method");
