@@ -10,7 +10,7 @@ class MultilevelInhertance {
 
 class one {
     void print_geek() {
-        System.out.println("Geeks");
+        System.out.println("Geek");
     }
 }
  
@@ -22,6 +22,7 @@ class two extends one {
  
 class three extends two {
     void print_geek() {
+        // super.print_geek();
         System.out.println("Geeks");
     }
 }

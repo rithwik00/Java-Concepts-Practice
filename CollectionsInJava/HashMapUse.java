@@ -1,4 +1,4 @@
-package ArraysAndLists;
+package CollectionsInJava;
 import java.util.HashMap; 
 
 class HashMapUse {

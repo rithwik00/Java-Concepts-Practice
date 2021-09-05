@@ -2,6 +2,10 @@ package Interface;
 interface Shape1 {
     void draw();
     double area();
+
+    default void mehod1() {
+        System.out.println("Default method in interface \n static and private methods are allowed too!");
+    }
 }
  
 class Rect implements Shape1 {
