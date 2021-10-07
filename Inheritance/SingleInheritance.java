@@ -41,6 +41,9 @@ class Bicycle {
 
 class MountainBike extends Bicycle {
     public int seatHeight;
+    static void testing(int i) {
+        System.out.println("static with one parameter subclass");
+    }
 
     public MountainBike(int gear, int speed, int startHeight) {
         // super(gear, speed);
@@ -63,8 +66,9 @@ class MountainBike extends Bicycle {
 
 class SingleInheritance {
     public static void main(String args[]) {
-        MountainBike mb = new MountainBike();
+        Bicycle mb = new MountainBike();
         System.out.println(mb.toString());
+        mb.testing(2);
         // Bicycle.testing(0.0f, 2);    NOT ALLOWED 
     }
 }
